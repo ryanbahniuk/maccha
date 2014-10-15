@@ -1,0 +1,255 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"commen",
+				"comment_class"
+			],
+			[
+				"the",
+				"the_permalink"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"comment",
+				"comment_count"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"gr",
+				"group"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"tasks",
+				"Tasks: New"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Fetch: Package"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sni",
+				"Snippet: html"
+			],
+			[
+				"snii",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"toggle",
+				"View: Toggle Minimap"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ryanbahniuk/Sites/Maccha/wp-content/themes/maccha/less/custom.less",
+		"/Users/ryanbahniuk/Sites/Maccha/wp-content/themes/maccha/header.php",
+		"/Users/ryanbahniuk/Sites/Maccha/wp-content/themes/maccha/single.php",
+		"/Users/ryanbahniuk/Sites/Maccha/wp-content/themes/maccha/index.php",
+		"/Users/ryanbahniuk/Sites/Maccha/wp-content/themes/maccha/archive.php",
+		"/Users/ryanbahniuk/Sites/Maccha/wp-content/themes/maccha/footer.php",
+		"/Users/ryanbahniuk/Sites/Lake Shore Runner/wp-content/themes/lakeshorerunner/index.php",
+		"/Users/ryanbahniuk/Sites/Lake Shore Runner/wp-content/themes/lakeshorerunner/header.php",
+		"/Users/ryanbahniuk/Sites/Lake Shore Runner/wp-content/themes/lakeshorerunner/functions.php",
+		"/Users/ryanbahniuk/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/ryanbahniuk/Sites/Lake Shore Runner/wp-content/themes/lakeshorerunner/footer.php",
+		"/Users/ryanbahniuk/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/ryanbahniuk/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/ryanbahniuk/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Users/ryanbahniuk/Sites/ryanbahniuk/__tmp_package.zip",
+		"/Users/ryanbahniuk/Sites/Lake Shore Runner/wp-content/themes/lakeshorerunner/page.php",
+		"/Users/ryanbahniuk/Sites/Lake Shore Runner/wp-content/themes/lakeshorerunner/package.json",
+		"/tmp/subl stdin Togrub.txt",
+		"/tmp/subl stdin 2RfMji.txt",
+		"/tmp/subl stdin s88bOg.txt",
+		"/Users/ryanbahniuk/railsbridge/test_app/config/routes.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<!",
+			"jeff",
+			"footer",
+			"\">            ",
+			"get_template_directory_uri",
+			"Theme"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"footer.php"
+			],
+			[
+				"page.",
+				"page.php"
+			],
+			[
+				"package",
+				"package.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/ryanbahniuk/Sites/ryanbahniuk/wp-content/themes/ryanbahniuk/ryanbahniuk.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

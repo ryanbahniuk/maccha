@@ -1,0 +1,75 @@
+/******************************************************************
+Maccha Navbar Dropdown Menus
+*******************************************************************/
+
+.navbar-collapse {
+    &>ul { //top level nav
+        margin-bottom: 0;
+        &>li { //top level nav items
+            &>ul { //drop down nav
+                list-style: none;
+                &>li { //drop down nav items
+                    a { //links inside drop down nav
+                        text-decoration: none;
+                        color: @navbar-default-link-color;
+                        &:hover {
+                            color: @navbar-default-link-hover-color;
+                        }
+                    }
+                }
+            }
+            @media (min-width: @grid-float-breakpoint) { //nav when uncollapsed
+                position: relative;
+                &:hover > ul {
+                    display: block;
+                }
+                &>ul { //drop down nav
+                    display: none;
+                    position: absolute;
+                    z-index: @zindex-dropdown;
+                    left: 50%;
+                    top: 100%;
+                    text-align: center;
+                    min-width: 200px;
+                    margin-left: -100px;
+                    padding: 0;
+                    background-color: @dropdown-bg;
+                    border: 1px solid @dropdown-border;
+                    &:before {
+                        content: "";
+                        width: 0; 
+                        height: 0; 
+                        border-left: 10px solid transparent;
+                        border-right: 10px solid transparent;
+                        border-bottom: 10px solid @dropdown-border;
+                        position: absolute;
+                        left: 50%;
+                        top: -10px;
+                        margin-left: -10px;
+                    }
+                    &>li { //drop down nav items
+                        padding-bottom: 10px;
+                        padding-top: 10px;
+                        border-bottom: 1px solid @dropdown-divider-bg;
+                        a { //links inside drop down nav
+                            color: @dropdown-link-color;
+                            &:hover {
+                                color: @dropdown-link-hover-color;
+                            }
+                        }
+                        &:first-child {
+                            padding-top: 15px;
+                        }
+                        &:last-child {
+                            padding-bottom: 15px;
+                            border-bottom: 0;
+                        }
+                        &:hover {
+                            background-color: @dropdown-link-hover-bg;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,333 @@
+/******************************************************************
+All Modified CSS Goes Here
+
+*****Table of Contents*****
+1.0 - General Styles
+2.0 - Type Styles
+3.0 - Header Styles
+4.0 - Navigation Styles
+5.0 - Body Styles
+6.0 - Sidebar/Aside Styles
+7.0 - Comment Styles
+8.0 - Footer Styles
+*******************************************************************/
+
+/************************
+1.0 - General Styles
+************************/
+
+html, body {
+  
+}
+body {
+  //padding-top: @navbar-height; // Enable this if you have the top navbar fixed
+  //adding css for html5shiv
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  nav,
+  section,
+  summary {
+    display: block;
+  }
+  audio,
+  canvas,
+  video {
+    display: inline-block;
+  }
+  article {
+    img {
+      height: auto;
+      margin: 15px auto;
+      display: block;
+      &.size-full {
+        width: 100%;
+      }
+      &.size-large {
+        width: 100%;
+      }
+      &.size-medium-large {
+        @media (max-width: 650px) {
+            width: 100%;
+        }
+      }
+      &.size-medium {
+        width: auto;
+      }
+      &.size-small {
+        width: auto;
+      }
+      &.preview {
+        margin: 0 20px 0 0;
+        float: left;
+      }
+    }
+    .comment-count {
+      &:before {
+        font-family: FontAwesome;
+        margin-right: 5px;
+      }
+      &.single:before {
+        content: '\f075';
+      }
+      &.multiple:before {
+        content: '\f086';
+      }
+    }
+  }
+}
+.container {
+}
+
+/************************
+2.0 - Type Styles
+************************/
+
+a {
+	&:hover {
+    }
+    &:focus {
+    }
+	&:active {
+    }
+	&:link {
+	}
+}
+a:visited {
+}
+
+h1, h2, h3, h4, h5 {
+	a {
+    }
+}
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+
+/************************
+3.0 - Header Styles
+************************/
+
+header {
+    .navbar {
+        .navbar-header {
+        }
+        .navbar-collapse {
+            &>ul { //top level nav
+                &>li { //top level nav items
+                    &>ul { //drop down nav
+                        &>li { //drop down nav items
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/************************
+4.0 - Navigation Styles
+************************/
+
+nav {
+}
+
+/************************
+5.0 - Body Styles
+************************/
+
+rtl {
+}
+.home {
+}
+.blog {
+}
+.archive {
+}
+.date {
+}
+.date-paged-/*Insert Page Number Here*/ {
+}
+.search {
+}
+.search-results {
+}
+.search-no-results {
+}
+.search-paged-/*Insert Page Number Here*/ {
+}
+.error404 {
+}
+.single {
+}
+.postid-/*Insert Post ID Here*/ {
+}
+.single-paged-/*Insert Page Number Here*/ {
+}
+.attachment {
+}
+.attachmentid-/*Insert Attachment ID Here*/ {
+}
+.attachment-mime-type {
+}
+.author {
+}
+.author-nicename {
+}
+.author-paged-/*Insert Page Number Here*/ {
+}
+.category {
+}
+.category-/*Insert Category ID Here*/ {
+}
+.category-paged-/*Insert Page Number Here*/ {
+}
+.tag {
+}
+.tag-slug {
+}
+.tag-paged-/*Insert Page Number Here*/ {
+}
+.page-template {
+}
+.page-template-page-php {
+}
+.page-paged-/*Insert Page Number Here*/ {
+}
+.page-parent {
+}
+.page-child {
+}
+.parent-pageid-/*Insert Page ID Here*/ {
+}
+.logged-in {
+}
+.paged {
+}
+.paged-/*Insert Page Number Here*/ {
+}
+
+/************************
+6.0 - Sidebar/Aside Styles
+************************/
+
+#sidebar {
+}
+
+/************************
+7.0 - Comment Styles
+************************/
+
+#comments {
+    .comments-title {
+    }
+    .comment-list { //unordered list containing comments
+        list-style: none;
+        padding: 0;
+        &>li { //individual comments
+            &>ul { //unordered list containing replies to individual comments
+                list-style: none;
+                li { //individual replies
+                }
+            }
+        }
+    }
+    .comment-respond {
+        .comment-reply-title {
+        }
+        .comment-form {
+            .comment-notes { //notes prior to form inputs 
+            }
+            .input-group { //all of the input containers in the form
+                margin-bottom: 15px;
+                width: 100%;
+                .input-group-addon { //all of the labels in the form
+                    width: 100px;
+                }
+            }
+            input, textarea { //all the inputs in the form
+            }
+            .comment-form-author { //container for the author input area in the form
+                input { //the input for the author field
+                }
+            }
+            .comment-form-email { //container for the email input area in the form
+                input { //the input for the email field
+                }
+            }
+            .comment-form-comment { //container for the comment input area in the form
+                textarea { //the input for the comment field
+                }
+            }
+            .form-submit { //container for the submit button in the form
+                input {
+                      display: inline-block;
+                      font-weight: @btn-font-weight;
+                      text-align: center;
+                      vertical-align: middle;
+                      cursor: pointer;
+                      background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+                        background-color: @gray-lighter;
+                      border: 1px solid @btn-default-border;
+                      white-space: nowrap;
+                      .button-size(@padding-base-vertical; @padding-base-horizontal; @font-size-base; @line-height-base; @border-radius-base);
+                      .user-select(none);
+
+                      &,
+                      &:active,
+                      &.active {
+                        &:focus {
+                          .tab-focus();
+                        }
+                      }
+
+                      &:hover,
+                      &:focus {
+                        color: @btn-default-color;
+                        text-decoration: none;
+                          background-color: @gray-light;
+                      }
+
+                      &:active,
+                      &.active {
+                        outline: 0;
+                        background-image: none;
+                        .box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+                      }
+
+                      &.disabled,
+                      &[disabled],
+                      fieldset[disabled] & {
+                        cursor: not-allowed;
+                        pointer-events: none; // Future-proof disabling of clicks
+                        .opacity(.65);
+                        .box-shadow(none);
+                      }
+                    
+                    }
+            }
+        }
+    }
+}
+
+/************************
+8.0 - Footer Styles
+************************/
+
+footer {
+    background-color: @navbar-default-bg;
+    border-top: 1px solid @navbar-default-border;
+    margin-top: 20px;
+}
